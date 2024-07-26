@@ -47,6 +47,8 @@ For your second milestone, explain what you've worked on since your previous mil
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+
+
 I achieved my first milestone by learning and understanding circuit fundamentals and implementing them through the creation of my circuit. With jumper wires, I connected the Arduino to the LED, the buzzer, and the sensor, and I attached it to the breadboard. I also learned and understood the fundamentals of the code and was able to adapt a program to work for my circuit. The circuit works by having the sensor emit an ultrasonic pulse, which echoes back to the sensor. The time it takes for this echo to return is calculated, and from that, the distance the object is from the sensor is determined. If this distance is less than the distance I established in the code (ex: 10 centimeters), the buzzer will make a sound, informing the user of the obstacle, and the LED will light up. Currently, I am still waiting for the vibration motor and the switch to arrive, so that I may incorporate them into my current circuit and adapt my code to accommodate them. 
 
 
