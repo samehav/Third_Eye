@@ -35,11 +35,8 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
+I achieved my second milestone by incorporating a vibrating motor and two buttons into my circuit. I decided to switch to using buttons instead of switches since the switches I received were not compatible with my current setup. Now, the two buttons control the vibrating motor and the buzzer, such that when an object comes within the distance established in the code (ex. 10 centimeters), the LED will light up, but the buzzer and the vibrating motor will only activate and vibrate/buzz if their corresponding buttons are pressed. This way, the user may control whether they wish to be informed of an obstacle with a vibration or with a sound, as sometimes one may be more preferable due to situational circumstances. Next, I want to incorporate HC 05 Bluetooth modules into my circuit so that the sensor and the rest of the components may be placed in separate locations with ease. 
+
 
 # First Milestone
 
