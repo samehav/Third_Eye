@@ -178,7 +178,7 @@ long microsecondsToCentimeters(long microseconds) {
 
 # Helpful Resources
 Below are some resources that I used to help me on my project. 
-- [Primary Guide - ](<a href="https://trashytuber.github.io/YimingJiaBlueStamp/](https://www.hackster.io/muhammedazhar/third-eye-for-the-blind-8c246d)" > Link </a> )
+- [Primary Guide - ](<a href="(https://www.hackster.io/muhammedazhar/third-eye-for-the-blind-8c246d)" > Link </a> )
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
