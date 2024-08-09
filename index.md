@@ -180,6 +180,7 @@ long microsecondsToCentimeters(long microseconds) {
 | Velcro | What the item is used for | $10.59 | <a href="https://www.amazon.com/VELCRO-Brand-ONE-WRAP-Double-Sided-Multi-Purpose/dp/B000078CUB/ref=sr_1_21?crid=G8FXTWN2M9TA&keywords=velcro+brand+tape&qid=1685477947&sprefix=velcro+brand+tap%2Caps%2C161&sr=8-21"> Link </a> |
 | USB Power Bank and Cable | What the item is used for | $29.99 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.amazon.com/SIXTHGU-Portable-Charger-Charging-Flashlight/dp/B0C7PHKKNK/ref=sr_1_2_sspa?th=1)"> Link </a> |
 | Vibration Motor | What the item is used for | $8.69 | <a href="https://www.amazon.com/dp/B081W4CTNY?ref=cm_sw_r_cso_cp_apin_dp_KX5J8ERH82NQBRWQD1R0&ref_=cm_sw_r_cso_cp_apin_dp_KX5J8ERH82NQBRWQD1R0&social_share=cm_sw_r_cso_cp_apin_dp_KX5J8ERH82NQBRWQD1R0&starsLeft=1 " > Link </a>|
+
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
