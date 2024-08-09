@@ -126,14 +126,43 @@ void loop() {
 ```
 
 ```c++
+const int trigPin = 2;
+const int echoPin = 3;
+const int TX = 11; // Connect to RX of Setup B
+const int RX = 10; // Connect to TX of Setup B
+
 void setup() {
-  // put your setup code here, to run once:
   Serial.begin(9600);
-  Serial.println("Hello World!");
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
+  pinMode(TX, OUTPUT);
+  pinMode(RX, INPUT);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  long duration, cm;
+  digitalWrite(trigPin, LOW);
+  delayMicroseconds(2);
+  digitalWrite(trigPin, HIGH);
+  delayMicroseconds(5);
+  digitalWrite(trigPin, LOW);
+
+  duration = pulseIn(echoPin, HIGH);
+  cm = microsecondsToCentimeters(duration);
+
+  if (cm <= 10 && cm > 0) {
+    Serial.println("Object detected.");
+    digitalWrite(TX, HIGH);
+  } else {
+    digitalWrite(TX, LOW);
+  }
+  delay(100);
+}
+
+long microsecondsToCentimeters(long microseconds) {
+  return microseconds / 29 / 2;
+}
+
 
 }
 ```
