@@ -179,7 +179,6 @@ long microsecondsToCentimeters(long microseconds) {
 # Helpful Resources
 Below are some resources that I used to help me on my project. 
 - Primary Guide - <a href="https://www.hackster.io/muhammedazhar/third-eye-for-the-blind-8c246d" > Link </a> 
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
+- Arduino Micro Pinout Diagram - <a href="https://www.hackster.io/muhammedazhar/third-eye-for-the-blind-8c246d" > Link </a>
+- Tactile Momentary Push Button Diagram - <a href="https://media.discordapp.net/attachments/1263584770583953459/1267485488181153874/tactile-Momentary-Push-Button-connection.png?ex=66b775d9&is=66b62459&hm=fc22777a6c672c2bca9528fe5cc97716b8da9ccdfec1118774f99c81a428141e&=&width=1494&height=842" > Link </a>
 
-To watch the BSE tutorial on how to create a portfolio, click here.
