@@ -179,6 +179,6 @@ long microsecondsToCentimeters(long microseconds) {
 # Helpful Resources
 Below are some resources that I used to help me on my project. 
 - Primary Guide - <a href="https://www.hackster.io/muhammedazhar/third-eye-for-the-blind-8c246d" > Link </a> 
-- Arduino Micro Pinout Diagram - <a href="[https://www.hackster.io/muhammedazhar/third-eye-for-the-blind-8c246d](https://media.discordapp.net/attachments/1263584770583953459/1264967029316649061/Pinout-Micro_latest.png?ex=66b6de19&is=66b58c99&hm=1ec5979d080252c8d035da1d3c44c8fe221821dc9856b9327c19acec53182a9a&=&width=874&height=874)" > Link </a>
+- Arduino Micro Pinout Diagram - <a href="https://media.discordapp.net/attachments/1263584770583953459/1264967029316649061/Pinout-Micro_latest.png?ex=66b6de19&is=66b58c99&hm=1ec5979d080252c8d035da1d3c44c8fe221821dc9856b9327c19acec53182a9a&=&width=874&height=874" > Link </a>
 - Tactile Momentary Push Button Diagram - <a href="https://media.discordapp.net/attachments/1263584770583953459/1267485488181153874/tactile-Momentary-Push-Button-connection.png?ex=66b775d9&is=66b62459&hm=fc22777a6c672c2bca9528fe5cc97716b8da9ccdfec1118774f99c81a428141e&=&width=1494&height=842" > Link </a>
 
