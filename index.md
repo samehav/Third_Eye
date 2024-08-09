@@ -48,14 +48,79 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
+const int buzzerPin = 4;
+const int motorPin = 5;
+const int buzzerButtonPin = 6;
+const int motorButtonPin = 7;
+const int TX = 11; // Connect to RX of Setup A
+const int RX = 10; // Connect to TX of Setup A
+
+bool buttonStateBuzzer = false;
+bool buttonStateMotor = false;
+bool lastButtonStateBuzzer = LOW;
+bool lastButtonStateMotor = LOW;
+bool buzzerOn = false;
+bool motorOn = false;
+
 void setup() {
-  // put your setup code here, to run once:
   Serial.begin(9600);
-  Serial.println("Hello World!");
+  pinMode(buzzerPin, OUTPUT);
+  pinMode(motorPin, OUTPUT);
+  pinMode(buzzerButtonPin, INPUT_PULLUP);
+  pinMode(motorButtonPin, INPUT_PULLUP);
+  pinMode(TX, OUTPUT);
+  pinMode(RX, INPUT);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  // Read the button states
+  bool currentButtonStateBuzzer = digitalRead(buzzerButtonPin) == LOW;
+  bool currentButtonStateMotor = digitalRead(motorButtonPin) == LOW;
+
+  // Check if the buzzer button state changed
+  if (currentButtonStateBuzzer != lastButtonStateBuzzer) {
+    if (currentButtonStateBuzzer == LOW) {
+      buzzerOn = !buzzerOn; // Toggle buzzer state
+    }
+    delay(50);
+  }
+  lastButtonStateBuzzer = currentButtonStateBuzzer;
+
+  // Check if the motor button state changed
+  if (currentButtonStateMotor != lastButtonStateMotor) {
+    if (currentButtonStateMotor == LOW) {
+      motorOn = !motorOn; // Toggle motor state
+    }
+    delay(50);
+  }
+  lastButtonStateMotor = currentButtonStateMotor;
+
+  // Check if data is available from Setup A
+  if (digitalRead(RX) == HIGH) {
+      Serial.println("Received"); // Indicate receipt of message
+      // Control buzzer
+      if (buzzerOn) {
+        tone(buzzerPin, 2200);
+        delay(300);
+        noTone(buzzerPin);
+      } else {
+        noTone(buzzerPin);
+      }
+
+      // Control motor
+      if (motorOn) {
+        digitalWrite(motorPin, HIGH);
+        delay(300);
+        digitalWrite(motorPin, LOW);
+      } else {
+        digitalWrite(motorPin, LOW);
+      }
+    } else {
+      // If no object detected, ensure buzzer and motor are off
+      digitalWrite(motorPin, LOW);
+      digitalWrite(buzzerPin, LOW);
+    }
+  }
 
 }
 ```
