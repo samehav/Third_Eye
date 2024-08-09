@@ -17,15 +17,9 @@ You should comment out all portions of your portfolio that you have not complete
   
 # Final Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3af37ryCgKU?si=ZDhs6u9UFxCEur82" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
+I achieved my final milestone by separating my setup onto 2 separate breadboards, one with the ultrasonic sensor and Arduino A, and another one with the buzzer, 2 buttons, vibrating motor, and Arduino B. This way, I can attach the setup with Arduino A on a hat and I can attach the setup with Arduino B onto an armband for making the device more user friendly. As of now, I am in the process of attaching these components to their respective locations. Unfortunately, my modification with the HC 05 Bluetooth modules did not work out due to a technical difficulty with one of the modules. However, I hope to incorporate Bluetooth into a future project with the lessons I learned from this attempt. In the place of my Bluetooth modules, there are 3 wires running from the hat to the armband to connect the 2 setups. I am very glad that I chose this project for this summer, as I learned a lot from it and I had a lot of fun along the way. BlueStamp was a great experience for me and I’ll be sure to use all the skills I learned on more projects that I will do in the future. 
 
 
 
