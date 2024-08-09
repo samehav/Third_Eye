@@ -1,5 +1,5 @@
 # Third Eye for the Blind
-This project is a wearable device for visually impaired individuals that alerts them of incoming obstaclesusing beeps and vibrations. The ultrasonic sensor, mounted on a hat, can detect objects that come within a set distance. This triggers a buzz from the buzzer and a vibration from tje vibrating motor, which can be turned on and off by a set of buttons. Without bulky components or an expensive price, the Third Eye is an innovative and effective solution for those that are visually impaired. 
+This project is a wearable device for visually impaired individuals that alerts them of incoming obstacles using beeps and vibrations. The ultrasonic sensor, mounted on a hat, can detect objects that come within a set distance. This triggers a buzz from the buzzer and a vibration from tje vibrating motor, which can be turned on and off by a set of buttons. Without bulky components or an expensive price, the Third Eye is an innovative and effective solution for those that are visually impaired. 
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
