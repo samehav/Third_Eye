@@ -1,11 +1,6 @@
 # Third Eye for the Blind
 This project is a wearable device for visually impaired individuals that alerts them of incoming obstacles using beeps and vibrations. The ultrasonic sensor, mounted on a hat, can detect objects that come within a set distance. This triggers a buzz from the buzzer and a vibration from tje vibrating motor, which can be turned on and off by a set of buttons. Without bulky components or an expensive price, the Third Eye is an innovative and effective solution for those that are visually impaired. 
 
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
-```HTML 
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
-```
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -181,9 +176,9 @@ long microsecondsToCentimeters(long microseconds) {
 | USB Power Bank and Cable | What the item is used for | $29.99 | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.amazon.com/SIXTHGU-Portable-Charger-Charging-Flashlight/dp/B0C7PHKKNK/ref=sr_1_2_sspa?th=1)"> Link </a> |
 | Vibration Motor | What the item is used for | $8.69 | <a href="https://www.amazon.com/dp/B081W4CTNY?ref=cm_sw_r_cso_cp_apin_dp_KX5J8ERH82NQBRWQD1R0&ref_=cm_sw_r_cso_cp_apin_dp_KX5J8ERH82NQBRWQD1R0&social_share=cm_sw_r_cso_cp_apin_dp_KX5J8ERH82NQBRWQD1R0&starsLeft=1 " > Link </a>|
 
-# Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
+# Helpful Resources
+Below are some resources that I used to help me on my project. 
+- [Primary Guide]([https://trashytuber.github.io/YimingJiaBlueStamp/](https://www.hackster.io/muhammedazhar/third-eye-for-the-blind-8c246d))
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
