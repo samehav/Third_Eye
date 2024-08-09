@@ -41,12 +41,12 @@ I achieved my first milestone by learning and understanding circuit fundamentals
 
 
 # Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
+Below are the schematics for my 2 setups. (Note: The diagram below uses Arduino Unos in the place of the Arduino Micros that I used.)
 
 ![Schematics](Schematics)
 
 # Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
+This first block is for the armband setup, with the vibrating motor, buzzer, and the 2 buttons. 
 
 ```c++
 const int buzzerPin = 4;
@@ -125,6 +125,8 @@ void loop() {
 
 }
 ```
+
+This second block of code is for the setup on the hat, with the ultrasonic sensor.
 
 ```c++
 const int trigPin = 2;
