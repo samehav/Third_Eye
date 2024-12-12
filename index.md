@@ -39,7 +39,7 @@ Below are the schematics for my 2 setups. (Note: The diagram below uses Arduino 
 ![Schematics](Schematics)
 
 # Code
-This first block is for the armband setup, with the vibrating motor, buzzer, and the 2 buttons. 
+This first block is for the armband setup which contains the vibrating motor, the buzzer, and the 2 buttons. 
 
 ```c++
 const int buzzerPin = 4;
